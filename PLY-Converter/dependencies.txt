@@ -1,0 +1,16 @@
+# PLY Converter Dependencies
+# Install these packages using: pip install -r dependencies.txt
+
+flask>=2.3.0
+numpy>=1.24.0
+plyfile>=0.7.0
+trimesh>=3.20.0
+ezdxf>=1.1.0
+pygltflib>=1.16.0
+werkzeug>=2.3.0
+scipy>=1.11.0
+
+# Optional dependencies (install if you want advanced mesh reconstruction)
+# open3d>=0.17.0
+
+# Note: Open3D is optional - the converter works without it using fallback algorithms
